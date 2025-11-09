@@ -1,4 +1,4 @@
-public class getSneakyNumbers {
+class GetSneakyNumbers {
     
     public int[] getSneakyNumbers(int[] nums) {
 
@@ -31,7 +31,7 @@ public class getSneakyNumbers {
         // return new int[]{list.get(0),list.get(1)};
 }
     public static void main(String[] args) {
-        getSneakyNumbers outer = new getSneakyNumbers();
+        GetSneakyNumbers outer = new GetSneakyNumbers();
        
         int[] nums = {0,1,1,0};
         int[] ans = outer.getSneakyNumbers(nums);
